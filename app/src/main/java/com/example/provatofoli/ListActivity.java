@@ -38,7 +38,7 @@ public class ListActivity extends AppCompatActivity {
                         .append("Código: ").append(p.getCode()).append("\n")
                         .append("Preço: R$ ").append(String.format("%.2f", p.getPrice())).append("\n")
                         .append("Quantidade: ").append(p.getQuantity()).append("\n")
-                        .append("-----------------------------\n\n");
+                        .append("_______________________\n\n");
             }
 
             // Exibe o texto montado na tela

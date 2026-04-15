@@ -3,36 +3,46 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:background="#F2F5F8"
+    android:padding="20dp">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Produtos em Estoque"
-        android:textSize="22sp"
+        android:text="Resumo de Estoque"
+        android:textSize="26sp"
+        android:textColor="#2196F3"
         android:textStyle="bold"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="20dp"
         android:textAlignment="center"/>
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:padding="15dp"
+        android:elevation="4dp">
 
         <TextView
             android:id="@+id/tvProductList"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nenhum produto cadastrado."
-            android:textSize="16sp" />
+            android:lineSpacingExtra="10dp"
+            android:textColor="#333333"
+            android:textSize="17sp"
+            android:fontFamily="sans-serif-light" />
     </ScrollView>
 
     <Button
         android:id="@+id/btnBack"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
         android:backgroundTint="#2196F3"
-        android:text="Voltar para Cadastro" />
+        android:text="Voltar ao Cadastro"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textAllCaps="false" />
 
 </LinearLayout>

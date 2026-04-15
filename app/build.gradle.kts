@@ -34,8 +34,8 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
 
+    // Room
     implementation(libs.androidx.room.runtime)
-    implementation(libs.androidx.room.common.jvm)
     annotationProcessor(libs.androidx.room.compiler)
 
     testImplementation(libs.junit)

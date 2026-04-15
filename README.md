@@ -1,7 +1,8 @@
-# Sistema de Controle de Estoque - Prova MAPA
+# Sistema de Controle de Estoque - Prova 15/04
 
 ## Descrição do Projeto
-Este projeto consiste em uma aplicação Android realizada para a prova  O objetivo principal é o gerenciamento de produtos, permitindo o cadastro de itens com validações específicas e a persistência dos dados em um banco de dados local.
+Este projeto consiste em uma aplicação Android nativa. Esta atividade foi realizada como avaliação da disciplina Desenvolvimento Mobile na Unicesumar, a qual é ministrada pelo professor Leonardo Rocha.
+O objetivo principal é o gerenciamento de produtos, permitindo o cadastro de itens com validações específicas e a persistência dos dados em um banco de dados local.
 
 ## Funcionalidades
 - **Cadastro de Produtos:** Registro de nome, código alfanumérico, preço e quantidade em estoque.

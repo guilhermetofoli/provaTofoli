@@ -67,6 +67,14 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         Toast.makeText(this, "Preço e Quantidade devem ser positivos!", Toast.LENGTH_SHORT).show();
                     }
+
+                    // Validação: Preço com no máximo duas casas decimais
+                    // Verificamos se após o ponto existem mais de 2 dígitos
+                    if (priceStr.contains(".") && priceStr.substring(priceStr.indexOf(".") + 1).length() > 2) {
+                        Toast.makeText(this, "O preço deve ter no máximo duas casas decimais!", Toast.LENGTH_SHORT).show();
+                        return;
+                    }
+
                 } catch (NumberFormatException e) {
                     Log.e("MainActivity", "Erro na conversão de números", e);
                     Toast.makeText(this, "Insira valores numéricos válidos!", Toast.LENGTH_SHORT).show();

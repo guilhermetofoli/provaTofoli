@@ -1,5 +1,7 @@
 # Sistema de Controle de Estoque - Prova 15/04
 
+- Nome: Guilherme Tófoli
+
 ## Descrição do Projeto
 Este projeto consiste em uma aplicação Android nativa. Esta atividade foi realizada como avaliação da disciplina Desenvolvimento Mobile na Unicesumar, a qual é ministrada pelo professor Leonardo Rocha.
 O objetivo principal é o gerenciamento de produtos, permitindo o cadastro de itens com validações específicas e a persistência dos dados em um banco de dados local.

@@ -50,8 +50,9 @@
             android:id="@+id/btnSave"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cadastrar Produto"
-            android:layout_marginTop="24dp" />
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#2196F3"
+            android:text="Cadastrar Produto" />
 
         <Button
             android:id="@+id/btnGoToList"

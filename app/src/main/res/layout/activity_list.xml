@@ -31,7 +31,8 @@
         android:id="@+id/btnBack"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Voltar para Cadastro"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#2196F3"
+        android:text="Voltar para Cadastro" />
 
 </LinearLayout>
